@@ -1,0 +1,33 @@
+{
+  "id": "gen-area-cirkel-r",
+  "namn": "Area av cirkel: radien given",
+  "kategori": "geometri/area/cirkel-radie",
+  "typ": "grupp",
+  "instruktion": "Beräkna cirkelns area. Svara med en decimal.",
+  "arskurs": [
+    8,
+    9
+  ],
+  "svarighet": 1,
+  "taggar": [
+    "rutin"
+  ],
+  "parametrar": {
+    "rad": {
+      "heltal": [
+        "1",
+        "12"
+      ]
+    },
+    "enh": {
+      "texter": [
+        "cm",
+        "dm",
+        "m"
+      ]
+    }
+  },
+  "villkor": [],
+  "text": "r = {rad} {enh}",
+  "facit": "A = π·{rad}² ≈ {dec(pi*rad^2,1)} {enh}²"
+}

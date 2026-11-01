@@ -1,0 +1,57 @@
+{
+  "id": "gen-brak-samma-namnare",
+  "namn": "Bråk: addition/subtraktion, samma nämnare",
+  "kategori": "taluppfattning/brak-addition-subtraktion/samma-namnare",
+  "typ": "grupp",
+  "instruktion": "Beräkna och svara i enklaste form.",
+  "arskurs": [
+    7,
+    8
+  ],
+  "svarighet": 1,
+  "taggar": [
+    "rutin"
+  ],
+  "parametrar": {
+    "b": {
+      "valj": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12
+      ]
+    },
+    "a": {
+      "heltal": [
+        "1",
+        "b-1"
+      ]
+    },
+    "c": {
+      "heltal": [
+        "1",
+        "b-1"
+      ]
+    },
+    "t": {
+      "valj": [
+        1,
+        -1
+      ]
+    },
+    "s": {
+      "uttryck": "a/b+t*c/b"
+    }
+  },
+  "villkor": [
+    "s>0",
+    "s<=2",
+    "a!=c"
+  ],
+  "text": "{f(a,b)} {sym(t)} {f(c,b)}",
+  "facit": "{r(s)}"
+}

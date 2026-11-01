@@ -1,0 +1,33 @@
+{
+  "id": "gen-area-cirkel-d",
+  "namn": "Area av cirkel: diametern given",
+  "kategori": "geometri/area/cirkel-diameter",
+  "typ": "grupp",
+  "instruktion": "Beräkna cirkelns area. Svara med en decimal.",
+  "arskurs": [
+    8,
+    9
+  ],
+  "svarighet": 1,
+  "taggar": [
+    "rutin"
+  ],
+  "parametrar": {
+    "d": {
+      "heltal": [
+        "2",
+        "20"
+      ]
+    },
+    "enh": {
+      "texter": [
+        "cm",
+        "dm",
+        "m"
+      ]
+    }
+  },
+  "villkor": [],
+  "text": "d = {d} {enh}",
+  "facit": "A = π·{n(d/2)}² ≈ {dec(pi*(d/2)^2,1)} {enh}²"
+}

@@ -1,0 +1,84 @@
+{
+  "id": "gen-brak-multipel",
+  "namn": "Bråk: addition/subtraktion, en nämnare är multipel av den andra",
+  "kategori": "taluppfattning/brak-addition-subtraktion/multipel-namnare",
+  "typ": "grupp",
+  "instruktion": "Beräkna och svara i enklaste form.",
+  "arskurs": [
+    7,
+    8
+  ],
+  "svarighet": 2,
+  "taggar": [
+    "rutin"
+  ],
+  "parametrar": {
+    "b": {
+      "valj": [
+        2,
+        3,
+        4,
+        5
+      ]
+    },
+    "k": {
+      "valj": [
+        2,
+        3,
+        4
+      ]
+    },
+    "d": {
+      "uttryck": "b*k"
+    },
+    "a": {
+      "heltal": [
+        "1",
+        "b-1"
+      ]
+    },
+    "c": {
+      "heltal": [
+        "1",
+        "d-1"
+      ]
+    },
+    "u": {
+      "valj": [
+        0,
+        1
+      ]
+    },
+    "t": {
+      "valj": [
+        1,
+        -1
+      ]
+    },
+    "n1": {
+      "uttryck": "if(u,a,c)"
+    },
+    "d1": {
+      "uttryck": "if(u,b,d)"
+    },
+    "n2": {
+      "uttryck": "if(u,c,a)"
+    },
+    "d2": {
+      "uttryck": "if(u,d,b)"
+    },
+    "s": {
+      "uttryck": "n1/d1+t*n2/d2"
+    }
+  },
+  "villkor": [
+    "s>0",
+    "s<=2",
+    "n1!=d1",
+    "n2!=d2",
+    "gcd(n1,d1)==1",
+    "gcd(n2,d2)==1"
+  ],
+  "text": "{f(n1,d1)} {sym(t)} {f(n2,d2)}",
+  "facit": "{r(s)}"
+}

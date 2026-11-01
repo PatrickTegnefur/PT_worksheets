@@ -1,0 +1,38 @@
+{
+  "id": "gen-ekv-addition",
+  "namn": "Ekvationer i ett steg: addition och subtraktion",
+  "kategori": "algebra/ekvationer/ett-steg",
+  "typ": "grupp",
+  "instruktion": "Lös ekvationerna.",
+  "arskurs": [
+    7,
+    8
+  ],
+  "svarighet": 1,
+  "taggar": [
+    "rutin"
+  ],
+  "parametrar": {
+    "x": {
+      "heltal": [
+        "1",
+        "15"
+      ]
+    },
+    "a": {
+      "heltal": [
+        "1",
+        "15"
+      ]
+    },
+    "t": {
+      "valj": [
+        1,
+        -1
+      ]
+    }
+  },
+  "villkor": [],
+  "text": "x {sym(t)} {a} = {n(x+t*a)}",
+  "facit": "x = {n(x)}"
+}

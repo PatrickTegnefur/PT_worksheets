@@ -1,0 +1,36 @@
+{
+  "id": "gen-procent-valfria",
+  "namn": "Procent av ett tal: valfria procentsatser",
+  "kategori": "procent/procent-av-tal/valfria-procentsatser",
+  "typ": "grupp",
+  "instruktion": "Beräkna.",
+  "arskurs": [
+    8
+  ],
+  "svarighet": 2,
+  "taggar": [
+    "rutin"
+  ],
+  "parametrar": {
+    "p": {
+      "heltal": [
+        "2",
+        "45"
+      ]
+    },
+    "k": {
+      "heltal": [
+        "4",
+        "80"
+      ]
+    },
+    "x": {
+      "uttryck": "k*10"
+    }
+  },
+  "villkor": [
+    "p%5!=0"
+  ],
+  "text": "{p} % av {x}",
+  "facit": "{n(p*x/100)}"
+}

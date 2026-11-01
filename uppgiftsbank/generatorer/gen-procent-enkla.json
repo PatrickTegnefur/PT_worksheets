@@ -1,0 +1,37 @@
+{
+  "id": "gen-procent-enkla",
+  "namn": "Procent av ett tal: enkla procentsatser",
+  "kategori": "procent/procent-av-tal/enkla-procentsatser",
+  "typ": "grupp",
+  "instruktion": "Beräkna.",
+  "arskurs": [
+    7
+  ],
+  "svarighet": 1,
+  "taggar": [
+    "rutin"
+  ],
+  "parametrar": {
+    "p": {
+      "valj": [
+        10,
+        20,
+        25,
+        50,
+        75
+      ]
+    },
+    "k": {
+      "heltal": [
+        "1",
+        "20"
+      ]
+    },
+    "x": {
+      "uttryck": "k*20"
+    }
+  },
+  "villkor": [],
+  "text": "{p} % av {x}",
+  "facit": "{n(p*x/100)}"
+}

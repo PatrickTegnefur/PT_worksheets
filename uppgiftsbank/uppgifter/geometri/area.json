@@ -1,0 +1,149 @@
+{
+  "version": 1,
+  "uppgifter": [
+    {
+      "id": "geo-area-cirkel-0012",
+      "typ": "enkel",
+      "kategori": "geometri/area/cirkel-diameter",
+      "arskurs": [
+        8,
+        9
+      ],
+      "svarighet": 1,
+      "taggar": [],
+      "text": "Diametern är 10 cm. Beräkna arean.",
+      "figur": null,
+      "figurPlats": "under",
+      "facit": "A = π·5² ≈ 78,5 cm²",
+      "layout": {
+        "foredragenBredd": 3,
+        "minBredd": 3,
+        "skrivutrymmeMm": 25
+      },
+      "forfattare": "Patrick",
+      "skapad": "2026-10-31",
+      "genereradAv": null,
+      "ocksa": []
+    },
+    {
+      "id": "geo-area-cirkel-0013",
+      "typ": "enkel",
+      "kategori": "geometri/area/cirkel-diameter",
+      "arskurs": [
+        8,
+        9
+      ],
+      "svarighet": 1,
+      "taggar": [],
+      "text": "Diametern är 6 cm. Beräkna arean.",
+      "figur": null,
+      "figurPlats": "under",
+      "facit": "A = π·3² ≈ 28,3 cm²",
+      "layout": {
+        "foredragenBredd": 3,
+        "minBredd": 3,
+        "skrivutrymmeMm": 25
+      },
+      "forfattare": "Patrick",
+      "skapad": "2026-10-31",
+      "genereradAv": null,
+      "ocksa": []
+    },
+    {
+      "id": "geo-area-cirkel-0014",
+      "typ": "enkel",
+      "kategori": "geometri/area/cirkel-diameter",
+      "arskurs": [
+        8,
+        9
+      ],
+      "svarighet": 1,
+      "taggar": [],
+      "text": "Diametern är 3,2 m. Beräkna arean.",
+      "figur": null,
+      "figurPlats": "under",
+      "facit": "A = π·1,6² ≈ 8,0 m²",
+      "layout": {
+        "foredragenBredd": 3,
+        "minBredd": 3,
+        "skrivutrymmeMm": 25
+      },
+      "forfattare": "Patrick",
+      "skapad": "2026-10-31",
+      "genereradAv": null,
+      "ocksa": []
+    },
+    {
+      "id": "geo-area-cirkel-0015",
+      "typ": "enkel",
+      "kategori": "geometri/area/cirkel-radie",
+      "arskurs": [
+        8,
+        9
+      ],
+      "svarighet": 1,
+      "taggar": [],
+      "text": "Radien är 4,5 cm. Beräkna arean.",
+      "figur": null,
+      "figurPlats": "under",
+      "facit": "A = π·4,5² ≈ 63,6 cm²",
+      "layout": {
+        "foredragenBredd": 3,
+        "minBredd": 3,
+        "skrivutrymmeMm": 25
+      },
+      "forfattare": "Patrick",
+      "skapad": "2026-10-31",
+      "genereradAv": null,
+      "ocksa": []
+    },
+    {
+      "id": "geo-area-cirkel-0021",
+      "typ": "enkel",
+      "kategori": "geometri/area/cirkel-diameter",
+      "arskurs": [
+        8,
+        9
+      ],
+      "svarighet": 2,
+      "taggar": [],
+      "text": "Figuren visar ett cirkelformat bord. Beräkna bordets area.",
+      "figur": "figurer/geo-area-cirkel-0021.svg",
+      "figurPlats": "under",
+      "facit": "A = π·7² ≈ 153,9 cm²",
+      "layout": {
+        "foredragenBredd": 6,
+        "minBredd": 4,
+        "skrivutrymmeMm": 40
+      },
+      "forfattare": "Patrick",
+      "skapad": "2026-10-31",
+      "genereradAv": null,
+      "ocksa": []
+    },
+    {
+      "id": "geo-area-cirkel-0030",
+      "typ": "enkel",
+      "kategori": "geometri/area/cirkel-diameter",
+      "arskurs": [
+        8,
+        9
+      ],
+      "svarighet": 3,
+      "taggar": [],
+      "text": "En pizzeria säljer pizzor med diametern 24 cm och 32 cm. Den mindre kostar 89 kr och den större 129 kr. Vilken pizza är mest prisvärd per cm²? Visa dina beräkningar och motivera ditt svar.",
+      "figur": null,
+      "figurPlats": "under",
+      "facit": "Mindre: ≈ 0,20 kr/cm². Större: ≈ 0,16 kr/cm². Den större är mest prisvärd.",
+      "layout": {
+        "foredragenBredd": 12,
+        "minBredd": 6,
+        "skrivutrymmeMm": 60
+      },
+      "forfattare": "Patrick",
+      "skapad": "2026-10-31",
+      "genereradAv": null,
+      "ocksa": []
+    }
+  ]
+}

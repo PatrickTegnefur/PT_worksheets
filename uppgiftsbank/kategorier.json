@@ -1,0 +1,174 @@
+{
+  "version": 1,
+  "arbetsomraden": [
+    {
+      "id": "taluppfattning",
+      "namn": "Taluppfattning",
+      "delomraden": [
+        {
+          "id": "brak-addition-subtraktion",
+          "namn": "Addition och subtraktion av bråk",
+          "uppsattningar": [
+            {
+              "id": "samma-namnare",
+              "namn": "Samma nämnare",
+              "ordning": 1
+            },
+            {
+              "id": "multipel-namnare",
+              "namn": "Olika nämnare, en multipel av den andra",
+              "ordning": 2,
+              "beskrivning": "t.ex. tredjedelar och sjättedelar"
+            },
+            {
+              "id": "forlangning",
+              "namn": "Olika nämnare som kräver förlängning",
+              "ordning": 3,
+              "beskrivning": "gemensam nämnare behöver hittas"
+            }
+          ]
+        },
+        {
+          "id": "negativa-tal",
+          "namn": "Negativa tal",
+          "uppsattningar": [
+            {
+              "id": "addition-subtraktion",
+              "namn": "Addition och subtraktion",
+              "ordning": 1
+            },
+            {
+              "id": "textuppgifter",
+              "namn": "Textuppgifter",
+              "ordning": 2
+            },
+            {
+              "id": "multiplikation-division",
+              "namn": "Multiplikation och division",
+              "ordning": 3
+            }
+          ]
+        },
+        {
+          "id": "brak-multiplikation-division",
+          "namn": "Multiplikation och division av bråk",
+          "uppsattningar": [
+            {
+              "id": "heltal-ganger-brak",
+              "namn": "Heltal gånger bråk",
+              "ordning": 1
+            },
+            {
+              "id": "brak-ganger-brak",
+              "namn": "Bråk gånger bråk",
+              "ordning": 2
+            },
+            {
+              "id": "brak-delat-med-brak",
+              "namn": "Bråk delat med bråk",
+              "ordning": 3
+            }
+          ]
+        },
+        {
+          "id": "decimal-addition-subtraktion",
+          "namn": "Addition och subtraktion av decimaltal",
+          "uppsattningar": [
+            {
+              "id": "samma-antal-decimaler",
+              "namn": "Lika många decimaler",
+              "ordning": 1
+            },
+            {
+              "id": "olika-antal-decimaler",
+              "namn": "Olika många decimaler",
+              "ordning": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "geometri",
+      "namn": "Geometri",
+      "delomraden": [
+        {
+          "id": "area",
+          "namn": "Area",
+          "uppsattningar": [
+            {
+              "id": "cirkel-diameter",
+              "namn": "Cirkel: diametern given",
+              "ordning": 1
+            },
+            {
+              "id": "cirkel-radie",
+              "namn": "Cirkel: radien given",
+              "ordning": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "algebra",
+      "namn": "Algebra",
+      "delomraden": [
+        {
+          "id": "ekvationer",
+          "namn": "Ekvationer",
+          "uppsattningar": [
+            {
+              "id": "ett-steg",
+              "namn": "Ekvationer i ett steg",
+              "ordning": 1
+            },
+            {
+              "id": "tva-steg",
+              "namn": "Ekvationer i två steg",
+              "ordning": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "samband-forandring",
+      "namn": "Samband och förändring",
+      "delomraden": []
+    },
+    {
+      "id": "procent",
+      "namn": "Procent",
+      "delomraden": [
+        {
+          "id": "procent-av-tal",
+          "namn": "Procent av ett tal",
+          "uppsattningar": [
+            {
+              "id": "enkla-procentsatser",
+              "namn": "Enkla procentsatser",
+              "ordning": 1,
+              "beskrivning": "10, 20, 25, 50 och 75 %"
+            },
+            {
+              "id": "valfria-procentsatser",
+              "namn": "Valfria procentsatser",
+              "ordning": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sannolikhet",
+      "namn": "Sannolikhetslära",
+      "delomraden": []
+    },
+    {
+      "id": "statistik",
+      "namn": "Statistik",
+      "delomraden": []
+    }
+  ]
+}

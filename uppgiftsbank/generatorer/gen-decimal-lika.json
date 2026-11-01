@@ -1,0 +1,44 @@
+{
+  "id": "gen-decimal-lika",
+  "namn": "Decimaltal: addition/subtraktion, lika många decimaler",
+  "kategori": "taluppfattning/decimal-addition-subtraktion/samma-antal-decimaler",
+  "typ": "grupp",
+  "instruktion": "Beräkna.",
+  "arskurs": [
+    7
+  ],
+  "svarighet": 1,
+  "taggar": [
+    "rutin"
+  ],
+  "parametrar": {
+    "a": {
+      "heltal": [
+        "11",
+        "99"
+      ]
+    },
+    "c": {
+      "heltal": [
+        "11",
+        "99"
+      ]
+    },
+    "t": {
+      "valj": [
+        1,
+        -1
+      ]
+    },
+    "s": {
+      "uttryck": "a/10+t*c/10"
+    }
+  },
+  "villkor": [
+    "s>0",
+    "a%10!=0",
+    "c%10!=0"
+  ],
+  "text": "{dec(a/10,1)} {sym(t)} {dec(c/10,1)}",
+  "facit": "{dec(s,1)}"
+}

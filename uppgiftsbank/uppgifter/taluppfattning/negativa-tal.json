@@ -1,0 +1,119 @@
+{
+  "version": 1,
+  "uppgifter": [
+    {
+      "id": "neg-add-0004",
+      "typ": "grupp",
+      "kategori": "taluppfattning/negativa-tal/addition-subtraktion",
+      "arskurs": [
+        8
+      ],
+      "svarighet": 1,
+      "taggar": [
+        "rutin"
+      ],
+      "instruktion": "Beräkna.",
+      "delar": [
+        {
+          "text": "−3 + 8",
+          "facit": "5"
+        },
+        {
+          "text": "5 − 12",
+          "facit": "−7"
+        },
+        {
+          "text": "−4 − (−9)",
+          "facit": "5"
+        },
+        {
+          "text": "−7 + (−2)",
+          "facit": "−9"
+        }
+      ],
+      "layout": {
+        "kolumner": 4,
+        "foredragenBredd": 12,
+        "minBredd": 6,
+        "skrivutrymmeMm": 18
+      },
+      "forfattare": "Patrick",
+      "skapad": "2026-10-31",
+      "genereradAv": null,
+      "ocksa": []
+    },
+    {
+      "id": "neg-add-0011",
+      "typ": "enkel",
+      "kategori": "taluppfattning/negativa-tal/textuppgifter",
+      "arskurs": [
+        8
+      ],
+      "svarighet": 2,
+      "taggar": [
+        "temperatur"
+      ],
+      "text": "En termometer visar −4 °C. Temperaturen stiger 9 grader. Vad visar den nu?",
+      "figur": null,
+      "facit": "5 °C",
+      "layout": {
+        "foredragenBredd": 6,
+        "minBredd": 4,
+        "skrivutrymmeMm": 25
+      },
+      "forfattare": "Patrick",
+      "skapad": "2026-10-31",
+      "genereradAv": null,
+      "ocksa": []
+    },
+    {
+      "id": "neg-add-0012",
+      "typ": "enkel",
+      "kategori": "taluppfattning/negativa-tal/addition-subtraktion",
+      "arskurs": [
+        8
+      ],
+      "svarighet": 2,
+      "taggar": [
+        "rutin"
+      ],
+      "text": "Beräkna 6 − (−3) − 8",
+      "figur": null,
+      "facit": "1",
+      "layout": {
+        "foredragenBredd": 6,
+        "minBredd": 3,
+        "skrivutrymmeMm": 25
+      },
+      "forfattare": "Patrick",
+      "skapad": "2026-10-31",
+      "genereradAv": null,
+      "ocksa": []
+    },
+    {
+      "id": "neg-prob-0003",
+      "typ": "enkel",
+      "kategori": "taluppfattning/negativa-tal/textuppgifter",
+      "arskurs": [
+        8,
+        9
+      ],
+      "svarighet": 3,
+      "taggar": [
+        "problemlösning"
+      ],
+      "text": "Ett dyk börjar 3 m under ytan och går ned ytterligare 7 m. Därefter stiger dykaren 4 m. Var befinner sig dykaren? Rita och beräkna.",
+      "figur": null,
+      "facit": "6 m under ytan (−6 m)",
+      "layout": {
+        "foredragenBredd": 12,
+        "minBredd": 8,
+        "skrivutrymmeMm": 45
+      },
+      "forfattare": "Patrick",
+      "skapad": "2026-10-31",
+      "genereradAv": null,
+      "ocksa": []
+    }
+  ]
+}

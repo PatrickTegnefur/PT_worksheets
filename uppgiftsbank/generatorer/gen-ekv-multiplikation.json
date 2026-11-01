@@ -1,0 +1,40 @@
+{
+  "id": "gen-ekv-multiplikation",
+  "namn": "Ekvationer i ett steg: multiplikation",
+  "kategori": "algebra/ekvationer/ett-steg",
+  "typ": "grupp",
+  "instruktion": "Lös ekvationerna.",
+  "arskurs": [
+    7,
+    8
+  ],
+  "svarighet": 1,
+  "taggar": [
+    "rutin"
+  ],
+  "parametrar": {
+    "a": {
+      "valj": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    "x": {
+      "heltal": [
+        "-9",
+        "9"
+      ]
+    }
+  },
+  "villkor": [
+    "x!=0"
+  ],
+  "text": "{a}x = {n(a*x)}",
+  "facit": "x = {n(x)}"
+}

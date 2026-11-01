@@ -1,0 +1,131 @@
+{
+  "version": 1,
+  "uppgifter": [
+    {
+      "id": "brak-addsub-0001",
+      "typ": "grupp",
+      "kategori": "taluppfattning/brak-addition-subtraktion/samma-namnare",
+      "ocksa": [],
+      "arskurs": [
+        7,
+        8
+      ],
+      "svarighet": 1,
+      "taggar": [
+        "rutin"
+      ],
+      "instruktion": "Beräkna och svara i enklaste form.",
+      "delar": [
+        {
+          "text": "$\\frac{2}{7}+\\frac{3}{7}$",
+          "facit": "$\\frac{5}{7}$"
+        },
+        {
+          "text": "$\\frac{5}{9}-\\frac{2}{9}$",
+          "facit": "$\\frac{1}{3}$"
+        },
+        {
+          "text": "$\\frac{1}{5}+\\frac{3}{5}$",
+          "facit": "$\\frac{4}{5}$"
+        },
+        {
+          "text": "$\\frac{7}{8}-\\frac{3}{8}$",
+          "facit": "$\\frac{1}{2}$"
+        }
+      ],
+      "layout": {
+        "kolumner": 4,
+        "foredragenBredd": 12,
+        "minBredd": 6,
+        "skrivutrymmeMm": 28
+      },
+      "forfattare": "Patrick",
+      "skapad": "2026-10-31",
+      "genereradAv": null
+    },
+    {
+      "id": "brak-addsub-0002",
+      "typ": "grupp",
+      "kategori": "taluppfattning/brak-addition-subtraktion/multipel-namnare",
+      "ocksa": [],
+      "arskurs": [
+        7,
+        8
+      ],
+      "svarighet": 2,
+      "taggar": [
+        "rutin"
+      ],
+      "instruktion": "Beräkna och svara i enklaste form.",
+      "delar": [
+        {
+          "text": "$\\frac{1}{3}+\\frac{1}{6}$",
+          "facit": "$\\frac{1}{2}$"
+        },
+        {
+          "text": "$\\frac{5}{6}-\\frac{1}{3}$",
+          "facit": "$\\frac{1}{2}$"
+        },
+        {
+          "text": "$\\frac{3}{4}+\\frac{1}{8}$",
+          "facit": "$\\frac{7}{8}$"
+        },
+        {
+          "text": "$\\frac{7}{10}-\\frac{2}{5}$",
+          "facit": "$\\frac{3}{10}$"
+        }
+      ],
+      "layout": {
+        "kolumner": 4,
+        "foredragenBredd": 12,
+        "minBredd": 6,
+        "skrivutrymmeMm": 28
+      },
+      "forfattare": "Patrick",
+      "skapad": "2026-10-31",
+      "genereradAv": null
+    },
+    {
+      "id": "brak-addsub-0003",
+      "typ": "grupp",
+      "kategori": "taluppfattning/brak-addition-subtraktion/forlangning",
+      "ocksa": [],
+      "arskurs": [
+        7,
+        8
+      ],
+      "svarighet": 3,
+      "taggar": [
+        "rutin"
+      ],
+      "instruktion": "Beräkna och svara i enklaste form.",
+      "delar": [
+        {
+          "text": "$\\frac{1}{2}+\\frac{1}{3}$",
+          "facit": "$\\frac{5}{6}$"
+        },
+        {
+          "text": "$\\frac{3}{4}-\\frac{1}{5}$",
+          "facit": "$\\frac{11}{20}$"
+        },
+        {
+          "text": "$\\frac{2}{3}+\\frac{1}{4}$",
+          "facit": "$\\frac{11}{12}$"
+        },
+        {
+          "text": "$\\frac{5}{6}-\\frac{1}{4}$",
+          "facit": "$\\frac{7}{12}$"
+        }
+      ],
+      "layout": {
+        "kolumner": 4,
+        "foredragenBredd": 12,
+        "minBredd": 6,
+        "skrivutrymmeMm": 28
+      },
+      "forfattare": "Patrick",
+      "skapad": "2026-10-31",
+      "genereradAv": null
+    }
+  ]
+}

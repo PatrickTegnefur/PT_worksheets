@@ -1,0 +1,67 @@
+{
+  "id": "gen-brak-forlangning",
+  "namn": "Bråk: addition/subtraktion, förlängning krävs",
+  "kategori": "taluppfattning/brak-addition-subtraktion/forlangning",
+  "typ": "grupp",
+  "instruktion": "Beräkna och svara i enklaste form.",
+  "arskurs": [
+    7,
+    8
+  ],
+  "svarighet": 3,
+  "taggar": [
+    "rutin"
+  ],
+  "parametrar": {
+    "b": {
+      "valj": [
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    "d": {
+      "valj": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "a": {
+      "heltal": [
+        "1",
+        "b-1"
+      ]
+    },
+    "c": {
+      "heltal": [
+        "1",
+        "d-1"
+      ]
+    },
+    "t": {
+      "valj": [
+        1,
+        -1
+      ]
+    },
+    "s": {
+      "uttryck": "a/b+t*c/d"
+    }
+  },
+  "villkor": [
+    "b!=d",
+    "d%b!=0",
+    "b%d!=0",
+    "lcm(b,d)<=24",
+    "s>0",
+    "s<=2"
+  ],
+  "text": "{f(a,b)} {sym(t)} {f(c,d)}",
+  "facit": "{r(s)}"
+}

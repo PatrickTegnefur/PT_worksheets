@@ -1,0 +1,39 @@
+{
+  "id": "gen-neg-delat",
+  "namn": "Negativa tal: division",
+  "kategori": "taluppfattning/negativa-tal/multiplikation-division",
+  "typ": "grupp",
+  "instruktion": "Beräkna.",
+  "arskurs": [
+    8
+  ],
+  "svarighet": 2,
+  "taggar": [
+    "rutin"
+  ],
+  "parametrar": {
+    "q": {
+      "heltal": [
+        "-9",
+        "9"
+      ]
+    },
+    "d": {
+      "heltal": [
+        "-9",
+        "9"
+      ]
+    },
+    "v": {
+      "uttryck": "q*d"
+    }
+  },
+  "villkor": [
+    "q!=0",
+    "d!=0",
+    "abs(q)>1",
+    "q<0||d<0"
+  ],
+  "text": "{n(v)} : {p(d)}",
+  "facit": "{n(q)}"
+}

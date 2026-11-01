@@ -1,0 +1,35 @@
+{
+  "id": "gen-neg-ganger",
+  "namn": "Negativa tal: multiplikation",
+  "kategori": "taluppfattning/negativa-tal/multiplikation-division",
+  "typ": "grupp",
+  "instruktion": "Beräkna.",
+  "arskurs": [
+    8
+  ],
+  "svarighet": 2,
+  "taggar": [
+    "rutin"
+  ],
+  "parametrar": {
+    "a": {
+      "heltal": [
+        "-9",
+        "9"
+      ]
+    },
+    "b": {
+      "heltal": [
+        "-9",
+        "9"
+      ]
+    }
+  },
+  "villkor": [
+    "a!=0",
+    "b!=0",
+    "a<0||b<0"
+  ],
+  "text": "{n(a)} · {p(b)}",
+  "facit": "{n(a*b)}"
+}

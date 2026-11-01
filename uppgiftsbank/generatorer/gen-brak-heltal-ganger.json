@@ -1,0 +1,54 @@
+{
+  "id": "gen-brak-heltal-ganger",
+  "namn": "Bråk: heltal gånger bråk",
+  "kategori": "taluppfattning/brak-multiplikation-division/heltal-ganger-brak",
+  "typ": "grupp",
+  "instruktion": "Beräkna och svara i enklaste form.",
+  "arskurs": [
+    7,
+    8
+  ],
+  "svarighet": 1,
+  "taggar": [
+    "rutin"
+  ],
+  "parametrar": {
+    "n": {
+      "valj": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        8,
+        9
+      ]
+    },
+    "b": {
+      "valj": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        10
+      ]
+    },
+    "a": {
+      "heltal": [
+        "1",
+        "b-1"
+      ]
+    },
+    "s": {
+      "uttryck": "n*a/b"
+    }
+  },
+  "villkor": [
+    "s<=12",
+    "gcd(a,b)==1"
+  ],
+  "text": "{n} · {f(a,b)}",
+  "facit": "{r(s)}"
+}

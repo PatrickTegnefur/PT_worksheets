@@ -1,0 +1,50 @@
+{
+  "id": "gen-decimal-olika",
+  "namn": "Decimaltal: addition/subtraktion, olika många decimaler",
+  "kategori": "taluppfattning/decimal-addition-subtraktion/olika-antal-decimaler",
+  "typ": "grupp",
+  "instruktion": "Beräkna.",
+  "arskurs": [
+    7
+  ],
+  "svarighet": 2,
+  "taggar": [
+    "rutin"
+  ],
+  "parametrar": {
+    "a": {
+      "heltal": [
+        "101",
+        "999"
+      ]
+    },
+    "c": {
+      "heltal": [
+        "11",
+        "99"
+      ]
+    },
+    "u": {
+      "valj": [
+        0,
+        1
+      ]
+    },
+    "t": {
+      "valj": [
+        1,
+        -1
+      ]
+    },
+    "s": {
+      "uttryck": "if(u,a/100+t*c/10,c/10+t*a/100)"
+    }
+  },
+  "villkor": [
+    "s>0",
+    "a%10!=0",
+    "c%10!=0"
+  ],
+  "text": "{if(u,dec(a/100,2),dec(c/10,1))} {sym(t)} {if(u,dec(c/10,1),dec(a/100,2))}",
+  "facit": "{dec(s,2)}"
+}

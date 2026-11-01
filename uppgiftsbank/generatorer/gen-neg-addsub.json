@@ -1,0 +1,44 @@
+{
+  "id": "gen-neg-addsub",
+  "namn": "Negativa tal: addition och subtraktion",
+  "kategori": "taluppfattning/negativa-tal/addition-subtraktion",
+  "typ": "grupp",
+  "instruktion": "Beräkna.",
+  "arskurs": [
+    8
+  ],
+  "svarighet": 1,
+  "taggar": [
+    "rutin"
+  ],
+  "parametrar": {
+    "a": {
+      "heltal": [
+        "-12",
+        "12"
+      ]
+    },
+    "b": {
+      "heltal": [
+        "-12",
+        "12"
+      ]
+    },
+    "t": {
+      "valj": [
+        1,
+        -1
+      ]
+    },
+    "s": {
+      "uttryck": "a+t*b"
+    }
+  },
+  "villkor": [
+    "a!=0",
+    "b!=0",
+    "a<0||b<0||s<0"
+  ],
+  "text": "{n(a)} {sym(t)} {p(b)}",
+  "facit": "{n(s)}"
+}

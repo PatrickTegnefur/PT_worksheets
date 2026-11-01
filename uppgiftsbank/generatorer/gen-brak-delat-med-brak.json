@@ -1,0 +1,62 @@
+{
+  "id": "gen-brak-delat-med-brak",
+  "namn": "Bråk: bråk delat med bråk",
+  "kategori": "taluppfattning/brak-multiplikation-division/brak-delat-med-brak",
+  "typ": "grupp",
+  "instruktion": "Beräkna och svara i enklaste form.",
+  "arskurs": [
+    8,
+    9
+  ],
+  "svarighet": 3,
+  "taggar": [
+    "rutin"
+  ],
+  "parametrar": {
+    "b": {
+      "valj": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "d": {
+      "valj": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    "a": {
+      "heltal": [
+        "1",
+        "b-1"
+      ]
+    },
+    "c": {
+      "heltal": [
+        "1",
+        "d-1"
+      ]
+    },
+    "s": {
+      "uttryck": "(a/b)/(c/d)"
+    }
+  },
+  "villkor": [
+    "b!=d",
+    "s<=6",
+    "gcd(a,b)==1",
+    "gcd(c,d)==1"
+  ],
+  "text": "{f(a,b)} : {f(c,d)}",
+  "facit": "{r(s)}"
+}

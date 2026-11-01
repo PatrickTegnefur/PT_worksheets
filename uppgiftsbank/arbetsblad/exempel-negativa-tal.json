@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "titel": "Addition och subtraktion med negativa tal",
+  "banner": true,
+  "visaFacit": false,
+  "block": [
+    {
+      "typ": "uppgift",
+      "ref": "neg-add-0004",
+      "bredd": 12,
+      "skrivutrymmeMm": 18,
+      "kolumner": 2
+    },
+    {
+      "typ": "uppgift",
+      "ref": "neg-add-0011",
+      "bredd": 6,
+      "skrivutrymmeMm": 25
+    },
+    {
+      "typ": "uppgift",
+      "ref": "neg-add-0012",
+      "bredd": 6,
+      "skrivutrymmeMm": 25
+    },
+    {
+      "typ": "text",
+      "text": "Visa alla beräkningar.",
+      "bredd": 12,
+      "skrivutrymmeMm": 0
+    },
+    {
+      "typ": "uppgift",
+      "ref": "neg-prob-0003",
+      "bredd": 12,
+      "skrivutrymmeMm": 45
+    }
+  ],
+  "installningar": {
+    "numrering": "cirkel",
+    "kanter": true,
+    "skiljelinjer": false,
+    "typsnitt": "Inter",
+    "textstorlekPt": 12,
+    "minBreddDeluppgiftMm": 45
+  }
+}
